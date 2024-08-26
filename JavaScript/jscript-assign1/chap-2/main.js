@@ -12,7 +12,7 @@
 // var message;
 
 // // b) Assign “Hello World” to variable message
-// message = "Hello World";
+// var message = "Hello World";
 
 // // c) Display the message in an alert box
 // alert(message);

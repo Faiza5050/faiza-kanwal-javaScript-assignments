@@ -3,7 +3,7 @@
 // var num1 = 3;
 // var num2 = 5;
 // var sum = num1 + num2;
-// document.write(`Sum of 3 and 5 is ${sum}`);
+// document.write("Sum of " + num1 + " " + "and " + " " + num2 + " " + "is" + " " + sum);
 
 
 // // Question # 2:
@@ -39,14 +39,14 @@
 
 // // (Part b)
 // var myNum;
-// document.write(`Value after variable declaration is ${myNum} <br>`);
+// document.write("<br>Value after variable declaration is" + " " + myNum);
 
 // // (Part c)
 // var myNum = 5;
 
 // (Part d)
 // var myNum = 5;
-// document.write(`Initial value: ${myNum}<br>`);
+// document.write("<br>Initial value: " + " " + myNum);
 
 // // (Part e)
 // var myNum = 5;
@@ -55,7 +55,7 @@
 // // (Part f)
 // var myNum = 5;
 // myNum++
-// document.write(`\nValue after increment is: ${myNum}<br>`);
+// document.write("<br>Value after increment is: " + " " + myNum);
 
 // // (Part g)
 // var myNum = 5;
@@ -66,7 +66,7 @@
 // var myNum = 5;
 // myNum++
 // myNum += 7;
-// document.write(`Value after addition is: ${myNum}<br>`);
+// document.write("<br>Value after addition is: " + " " + myNum);
 
 // // (Part i)
 // var myNum = 5;
@@ -79,7 +79,7 @@
 // myNum++
 // myNum += 7;
 // myNum--;
-// document.write(`Value after decrement is: ${myNum}<br>`);
+// document.write("<br>Value after decrement is: " + " " + myNum);
 
 // // (Part k)
 // var myNum = 5;
@@ -90,7 +90,7 @@
 
 // // (Part l)
 // var remainder = myNum % 3
-// document.write(`The remainder is: ${remainder}<br>`);
+// document.write("<br>The remainder is: " + " " + remainder);
 
 
 // // Question # 4:
@@ -99,7 +99,7 @@
 // var numberOfTicket = 5;
 
 // var total_cost = ticketPrice * numberOfTicket;
-// document.write(`Total cost to buy 5 tickets to a movie is ${total_cost}PKR`);
+// document.write("Total cost to buy " + " " + numberOfTicket + " " + "tickets to a movie is " + " " + total_cost + "PKR");
 
 
 // // Question # 5:
@@ -125,7 +125,7 @@
 // // Convert Celsius to Fahrenheit:
 // var celsius = 25;
 // fahrenheit = (celsius * 9 / 5) + 32;
-// document.write(`${celsius}°C is ${fahrenheit}°F<br>`);
+// document.write(celsius + "°C" + " " + "is" + " " + fahrenheit + "°F<br>");
 
 // // (Part c)
 // var fahrenheit = 70;
@@ -134,7 +134,7 @@
 // // Convert Fahrenheit to Celsius:
 // var fahrenheit = 70;
 // celsius = (fahrenheit - 32) * 5 / 9;
-// document.write(`${fahrenheit}°F is ${celsius}°C`);
+// document.write(fahrenheit + "°F" + " " + "is" + " " + celsius + "°C");
 
 
 // // Question # 7:
@@ -145,19 +145,20 @@
 // var quantityItem2 = 7;
 // var shippingCharges = 100;
 
-// document.write(`Price of item 1 is ${priceItem1}<br>`);
+// document.write("<h1>Shopping Cart</h1><br>");
+// document.write("Price of item 1 is " + " " + priceItem1);
 // var totalItem1 = priceItem1 * quantityItem1;
-// document.write(`Quantity of item 1 is ${quantityItem1}<br>`);
+// document.write("<br>Quantity of item 1 is " + " " + quantityItem1);
 
-// document.write(`Price of item 2 is ${priceItem2}<br>`);
+// document.write("<br>Price of item 2 is " + " " + priceItem2);
 // var totalItem2 = priceItem2 * quantityItem2;
-// document.write(`Quantity of item 2 is ${quantityItem2}<br>`);
+// document.write("<br>Quantity of item 2 is " + " " + quantityItem2);
 
-// document.write(`Shipping Charges ${shippingCharges}<br><br>`);
+// document.write("<br>Shipping Charges " + " " + shippingCharges);
 
 // var subtotal = totalItem1 + totalItem2;
 // var totalCost = subtotal + shippingCharges;
-// document.write(`Total cost of your order is ${totalCost}`);
+// document.write("<br><br>Total cost of your order is " + " " + totalCost);
 
 
 // // Question # 8:
@@ -165,11 +166,12 @@
 // var totalMarks = 980;
 // var marksObtained = 804;
 
-// document.write(`Total marks: ${totalMarks}<br>`);
-// document.write(`Marks obtained: ${marksObtained}<br>`);
+// document.write("<h1>Marks Sheet</h1><br>");
+// document.write("Total marks: " + totalMarks);
+// document.write("<br>Marks obtained: " + marksObtained);
 
 // var percentage = (marksObtained / totalMarks) * 100;
-// document.write(`Percentage: ${percentage}%<br>`);
+// document.write("<br>Percentage: " + percentage + "%");
 
 
 // // Question # 9:
@@ -181,8 +183,9 @@
 // var usdToPkr = 104.80;
 // var sdrToPkr = 28;
 
+// document.write("<h1>Currency in PKR</h1><br>");
 // var totalPkr = (usdAmount * usdToPkr) + (sdrAmount * sdrToPkr);
-// document.write(`Total Currency in PKR: ${totalPkr}`);
+// document.write("Total Currency in PKR: " + totalPkr);
 
 
 // // Question # 10:
@@ -198,11 +201,12 @@
 // var currentYear = 2016;
 // var birthYear = 1992;
 
-// document.write(`Current Year: ${currentYear}<br>`);
-// document.write(`Birth Year: ${birthYear}<br>`)
+// document.write("<h1>Age Calculator</h1><br>");
+// document.write("Current Year: " + currentYear);
+// document.write("<br>Birth Year: " + birthYear);
 
 // var age = currentYear - birthYear;
-// document.write(`Your Age is: ${age}`);
+// document.write("<br>Your Age is: " + age);
 
 
 // // Question # 12:
@@ -210,38 +214,40 @@
 // var radius = 20;
 // var pi = 3.142;
 
-// document.write(`Radius of a circle: ${radius}<br>`)
+// document.write("<h1>The Geometrizer</h1><br>");
+// document.write("Radius of a circle: " + radius);
 
 // // For Circumference Of a Circle:
 // var circumference = 2 * pi * radius;
-// document.write(`The circumference is: ${circumference}<br>`);
+// document.write("<br>The circumference is: " + circumference);
 
 // // For Area Of a Circle:
 // var area = pi * radius * radius;
-// document.write(`The area is: ${area}`);
+// document.write("<br>The area is: " + area);
 
 
 // // Question # 13:
 
+// document.write("<h1>The Lifetime Supply Calculator</h1><br>");
 // // (Part a)
 // var favSnack = "chocolate chip";
-// document.write(`Favourite Snack: ${favSnack}<br>`);
+// document.write("<br>Favourite Snack: " + favSnack);
 
 // // (Part b)
 // var currentAge = 15;
-// document.write(`Current age: ${currentAge}<br>`);
+// document.write("<br>Current age: " + currentAge);
 
 // // (Part c)
 // var maximumAge = 65;
-// document.write(`Maximum Age: ${maximumAge}<br>`);
+// document.write("<br>Maximum Age: " + maximumAge);
 
 // // (Part d)
 // var estimatedAmount = 3;
-// document.write(`Amount of snacks per day: ${estimatedAmount}<br>`);
+// document.write("<br>Amount of snacks per day: " + estimatedAmount);
 
 // // (Part e)
 // var yearsLeft = maximumAge - currentAge;
 
 // let totalSnacksNeeded = yearsLeft * 365 * estimatedAmount;
 
-// document.write("You will need " + totalSnacksNeeded + " " + favSnack + " to the last you until the ripe old age of " + maximumAge);
+// document.write("<br>You will need " + totalSnacksNeeded + " " + favSnack + " to the last you until the ripe old age of " + " " + maximumAge);

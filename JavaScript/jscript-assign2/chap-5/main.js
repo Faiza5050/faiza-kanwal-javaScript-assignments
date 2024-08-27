@@ -104,16 +104,29 @@
 
 // // Question # 5:
 
-// var table =1;
-// // while (i <= 10){
-// //     i++;
-// number = 4
+// var num = 4;
 
-// for (let i = 1; i <=10; i++) {
-//     table = number + `x` + i + ` = ` +  number;
-
-//     document.write(table);
-// }
+// document.write("<h1>Table of 4</h1>")
+// num = num * 1;
+// document.write("<br>" + num + " X " + " 1 " + " = " + num);
+// num1 = num * 2;
+// document.write("<br>" + num + " X " + " 2 " + " = " + num1);
+// num2 = num * 3;
+// document.write("<br>" + num + " X " + " 3 " + " = " + num2);
+// num3 = num * 4;
+// document.write("<br>" + num + " X " + " 4 " + " = " + num3);
+// num4 = num * 5;
+// document.write("<br>" + num + " X " + " 5 " + " = " + num4);
+// num5 = num * 6;
+// document.write("<br>" + num + " X " + " 6 " + " = " + num5);
+// num6 = num * 7;
+// document.write("<br>" + num + " X " + " 7 " + " = " + num6);
+// num7 = num * 8;
+// document.write("<br>" + num + " X " + " 8 " + " = " + num7);
+// num8 = num * 9;
+// document.write("<br>" + num + " X " + " 9 " + " = " + num8);
+// num9 = num * 10;
+// document.write("<br>" + num + " X " + " 10 " + " = " + num9);
 
 
 // // Question # 6:

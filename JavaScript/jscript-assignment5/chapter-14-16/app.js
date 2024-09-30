@@ -124,6 +124,42 @@
 // document.write("<h1>String: <br>" + joining + "</h1>");
 
 
-// Question # 13:
+// // Question # 13:
+
+// var fifoArray = [];
+
+// fifoArray.push("keyboard");
+// fifoArray.push("mouse");
+// fifoArray.push("printer");
+// fifoArray.push("monitor");
+// document.write("Devices: <br>" + fifoArray + "<br><br>");
+
+// while (fifoArray.length > 0) {
+// document.write("Out:<br>" + fifoArray.shift() + "<br>");
+// }
+
+
+// // Question # 14:
+
+// var fifoArray = [];
+
+// fifoArray.push("keyboard");
+// fifoArray.push("mouse");
+// fifoArray.push("printer");
+// fifoArray.push("monitor");
+// document.write("Devices: <br>" + fifoArray + "<br><br>");
+
+// while (fifoArray.length > 0) {
+//     document.write("Out:<br>" + fifoArray.pop() + "<br>");
+// }
+
+
+// Question # 15:
+
+// var phoneManufacturer = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+// for (let i = 0; i < phoneManufacturer.length; i++) {
+//     document.write("<option value='" + phoneManufacturer[i] + "'>" + phoneManufacturer[i] + "</option>");
+// }
 
 
